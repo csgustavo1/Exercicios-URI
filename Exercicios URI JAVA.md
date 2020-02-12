@@ -254,22 +254,20 @@ public class Exercicio12 {
 }
 
 
-exercicio dias da semana 
-
 import java.util.Scanner;
 import java.util.InputMismatchException;
 public class Exercicio12 {
 
 	public static void main(String[] args) {
 
-		
+try {		
 		int dia;  
 		Scanner sc= new Scanner (System.in);
 	        dia=sc.nextInt();
 	    
 	
 	    
-try {		
+		
  
 	switch(dia) {
 	   
@@ -305,17 +303,17 @@ try {
 	
 	sc.close();
 	
-	 }
+	}
       catch (InputMismatchException e){
     	  System.out.println("Favor digite um numero dentro do intervalo");
 	   	
 	}
  
 
-	
+       
 }	
+	
 
 }
-
 
 
