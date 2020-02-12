@@ -231,7 +231,27 @@ public class Main {
 
 }
 
+exercicio URI calcular plano de telefonia
 
+import java.util.Scanner;
+public class Exercicio12 {
+
+	public static void main(String[] args) {
+		int minutos; double valor=50.00;  
+		Scanner sc= new Scanner (System.in);
+		minutos=sc.nextInt();
+		if(minutos > 100) {
+			valor= valor + (minutos - 100) * 2.0; 
+			System.out.printf("Valor a pagar: R$ %.2f%n", valor);
+		}
+		if(minutos <= 100) {
+			System.out.printf("Valor a pagar: R$ %.2f%n", valor);
+		}
+		sc.close();
+
+	}
+
+}
 
 
 
