@@ -254,9 +254,68 @@ public class Exercicio12 {
 }
 
 
+exercicio dias da semana 
 
+import java.util.Scanner;
+import java.util.InputMismatchException;
+public class Exercicio12 {
 
+	public static void main(String[] args) {
 
+		
+		int dia;  
+		Scanner sc= new Scanner (System.in);
+	        dia=sc.nextInt();
+	    
+	
+	    
+try {		
+ 
+	switch(dia) {
+	   
+	case 1:
+	  System.out.println("Dia da semana: Domingo");
+	  break;
+	
+	case 2:
+	 System.out.println("Dia da semana: Segunda");
+	 break;	
+	 
+	case 3:
+	 System.out.println("Dia da semana: Terça feira");
+     break;
+     
+	case 4:
+	 System.out.println("Dia da semana: Quarta feira");
+	 break;
+	 
+	case 5:
+	 System.out.println("Dia da semana: Quinta feira");
+	 break;
+	 
+	case 6:
+     System.out.println("Dia da semana: Sexta feira");
+	 break;
+		
+	case 7: 
+	 System.out.println("Dia da semana: Sabado");
+	 break;
+
+	}
+	
+	sc.close();
+	
+	 }
+      catch (InputMismatchException e){
+    	  System.out.println("Favor digite um numero dentro do intervalo");
+	   	
+	}
+ 
+
+	
+}	
+
+}
 
 
 
